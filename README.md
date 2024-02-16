@@ -17,28 +17,26 @@ To use the ModalHRNet component in your React application, simply import it and 
 
 ```javascript
 import React from 'react';
-import { ModalEmployeeCreated } from 'employeehrnet';
+import './modal.css';
 
-function App() {
-  const [isOpen, setIsOpen] = React.useState(false);
-
-  const handleOpenModal = () => {
-    setIsOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setIsOpen(false);
-  };
+const ModalEmployeeCreated = ({ isOpen, onClose }) => {
+  if (!isOpen) return null;
 
   return (
-    <div>
-      <button onClick={handleOpenModal}>Open Modal</button>
-      <ModalEmployeeCreated isOpen={isOpen} onClose={handleCloseModal} />
+    <div className="modal-container">
+      <div className="modal-background" onClick={onClose}></div>
+      <div className="modal-content">
+        <div className="modal-header">
+          <h2>Employee Created!</h2>
+          <button className="close-button" onClick={onClose}></button>
+        </div>
+      </div>
     </div>
   );
-}
+};
 
-export default App;
+export default ModalEmployeeCreated;
+
 ```
 
 ## Props
