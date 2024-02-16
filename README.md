@@ -8,12 +8,9 @@ You can install the ModalHRNet component via npm:
 
 npm install employeehrnet
 
-arduino
-Copy code
-
 ## Usage
 
-To use the ModalHRNet component in your React application, simply import it and use it in your code:
+To use the ModalHRNet component in your React application, simply import it and use it in your code (exemple):
 
 ```javascript
 import React from 'react';
