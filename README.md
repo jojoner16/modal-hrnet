@@ -39,10 +39,13 @@ function App() {
 }
 
 export default App;
-Props
+```
+
+## Props
 The ModalHRNet component accepts the following props:
 
 isOpen (boolean): Controls whether the modal is open or closed.
 onClose (function): Callback function to close the modal.
-License
+
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
