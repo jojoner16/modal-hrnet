@@ -1,6 +1,6 @@
 {
   "name": "employeehrnet",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A modal component for React",
   "main": "index.js",
   "author": "jojoner16",
@@ -43,6 +43,7 @@
   },
   "files": [
     "dist",
+    "src",
     "README.md"
   ],
   "repository": {
