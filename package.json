@@ -1,8 +1,9 @@
 {
   "name": "employeehrnet",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "A modal component for React",
   "main": "index.js",
+  "module": "index.js",
   "author": "jojoner16",
   "license": "MIT",
   "dependencies": {
@@ -42,7 +43,7 @@
     "react-scripts": "5.0.1"
   },
   "files": [
-    "dist",
+    "modalhrnet",
     "src",
     "README.md"
   ],
