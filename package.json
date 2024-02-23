@@ -1,6 +1,6 @@
 {
   "name": "employeehrnet",
-  "version": "0.1.9",
+  "version": "0.2.0",
   "description": "A modal component for React",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -47,8 +47,7 @@
     "rimraf": "^5.0.5"
   },
   "files": [
-    "modalhrnet",
-    "src",
+    "dist",
     "README.md"
   ],
   "repository": {
