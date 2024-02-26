@@ -1,6 +1,6 @@
 {
   "name": "employeehrnet",
-  "version": "0.2.1",
+  "version": "0.2.3",
   "description": "A modal component for React",
   "main": "dist/index.js",
   "module": "dist/index.js",
