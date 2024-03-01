@@ -1,17 +1,12 @@
 {
   "name": "employeehrnet",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "A modal component for React",
   "main": "dist/index.js",
   "module": "dist/index.js",
   "author": "jojoner16",
   "license": "MIT",
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "web-vitals": "^2.1.4"
-  },
+  
   "scripts": {
     "start": "react-scripts start",
     "build": "set NODE_ENV=production&& babel src/lib --out-dir dist --copy-files --ignore tests,spec.js,test.js,_snapshots",
@@ -37,14 +32,10 @@
     ]
   },
   "devDependencies": {
-    "@babel/cli": "^7.23.9",
-    "@babel/core": "^7.23.9",
-    "@babel/preset-react": "^7.23.3",
     "babel-cli": "^6.26.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
-    "rimraf": "^5.0.5"
+    "react-scripts": "^5.0.1"
   },
   "files": [
     "dist",
